@@ -1,9 +1,7 @@
 # Online Learning Management System
 
-> This was a school project from the course Web Information Systems
-
 > [!NOTE]
-> This project was hosted on UQ private cloud
+> This was a school project from the course Web Information Systems and was hosted on UQ private cloud which have stop providing support
 
 ## About
 
