@@ -1,0 +1,171 @@
+ERROR - 2023-04-11 07:20:51 --> mysqli_sql_exception: Table 'demo.project' doesn't exist in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /var/www/htdocs/demo/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/htdocs/demo/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /var/www/htdocs/demo/app/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+#9 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+#10 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-11 07:20:51 --> Table 'demo.project' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 4 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 5 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-11 07:22:00 --> mysqli_sql_exception: Table 'demo.project' doesn't exist in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /var/www/htdocs/demo/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/htdocs/demo/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /var/www/htdocs/demo/app/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+#9 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+#10 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-11 07:22:00 --> Table 'demo.project' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 4 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 5 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-11 07:24:35 --> mysqli_sql_exception: Table 'demo.project' doesn't exist in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /var/www/htdocs/demo/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/htdocs/demo/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /var/www/htdocs/demo/app/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+#9 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+#10 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-11 07:24:35 --> Table 'demo.project' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 4 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 5 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-11 07:26:56 --> mysqli_sql_exception: Table 'demo.project' doesn't exist in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /var/www/htdocs/demo/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/htdocs/demo/system/Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 /var/www/htdocs/demo/app/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+#9 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+#10 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-11 07:26:56 --> Table 'demo.project' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 4 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 5 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH/Controllers/CreateAccount.php(25): CodeIgniter\Controller->validate()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 15:58:30 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Login.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:14:58 --> Too few arguments to function App\Controllers\Login::index(), 0 passed in /var/www/htdocs/demo/system/CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH/Controllers/Login.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:24:54 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Login.php on line 49.
+ 1 APPPATH/Controllers/Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->logged_in()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:25:46 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Login.php on line 49.
+ 1 APPPATH/Controllers/Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->logged_in()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:26:19 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Login.php on line 49.
+ 1 APPPATH/Controllers/Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->logged_in()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:27:57 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Login.php on line 49.
+ 1 APPPATH/Controllers/Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->logged_in()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:28:01 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Login.php on line 49.
+ 1 APPPATH/Controllers/Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->logged_in()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:57:57 --> Undefined constant "App\Controllers\CreateAccount"
+in APPPATH/Controllers/Login.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:57:57 --> Undefined constant "App\Controllers\CreateAccount"
+in APPPATH/Controllers/Login.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

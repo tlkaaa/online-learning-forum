@@ -1,0 +1,97 @@
+CRITICAL - 2023-04-28 08:17:15 --> The route for "dropzone" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 592.
+ 1 SYSTEMPATH/Helpers/url_helper.php(592): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/profile.php(60): url_to()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Profile.php(45): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:17:24 --> The route for "dropzone" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 592.
+ 1 SYSTEMPATH/Helpers/url_helper.php(592): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/profile.php(60): url_to()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Profile.php(45): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:21:38 --> The route for "dropzone" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 592.
+ 1 SYSTEMPATH/Helpers/url_helper.php(592): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/profile.php(60): url_to()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Profile.php(45): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:21:44 --> The route for "dropzone" cannot be found.
+in SYSTEMPATH/Helpers/url_helper.php on line 592.
+ 1 SYSTEMPATH/Helpers/url_helper.php(592): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH/Views/profile.php(60): url_to()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Profile.php(45): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:24:52 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Profile.php on line 113.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->dz()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:24:58 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Profile.php on line 113.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->dz()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:25:09 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Profile.php on line 117.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->dz()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:29:36 --> move_uploaded_file(/var/www/htdocs/demo/app/Controllers//var/www/htdocs/demo/writable/uploads//endnote sc.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(120): move_uploaded_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->dz()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:35:12 --> move_uploaded_file(/var/www/htdocs/demo/writable/upload/endnote sc.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(114): move_uploaded_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->dz()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 08:35:39 --> move_uploaded_file(https://infs3202-bb356835.uqcloud.net/demo/writable/upload/endnote sc.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH/Controllers/Profile.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(114): move_uploaded_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->dz()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 10:08:46 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Home.php on line 191.
+ 1 APPPATH/Controllers/Home.php(191): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

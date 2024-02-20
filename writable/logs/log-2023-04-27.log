@@ -1,0 +1,420 @@
+CRITICAL - 2023-04-27 04:40:28 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Home.php on line 161.
+ 1 APPPATH/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 04:50:59 --> Undefined property: stdClass::$thread
+in APPPATH/Controllers/Home.php on line 180.
+ 1 APPPATH/Controllers/Home.php(180): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->get_search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:01:11 --> getimagesize(/demo/writable/uploads/1682534329_5278921b114b7c7fec00.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Controllers/Profile.php(36): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:02:46 --> getimagesize(/demo/writable/uploads/1682534329_5278921b114b7c7fec00.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Controllers/Profile.php(36): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:03:15 --> Undefined variable $Image_model
+in APPPATH/Views/profile.php on line 16.
+ 1 APPPATH/Views/profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(44): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:03:31 --> Undefined variable $profile_image_path
+in APPPATH/Views/profile.php on line 17.
+ 1 APPPATH/Views/profile.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(44): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:03:55 --> getimagesize(/demo/writable/uploads/1682534329_5278921b114b7c7fec00.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:04:29 --> getimagesize(/demo/writable/uploads/1682534329_5278921b114b7c7fec00.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:04:35 --> getimagesize(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:05:32 --> imagecreatefromjpeg(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(35): imagecreatefromjpeg()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:05:38 --> imagecreatefromjpeg(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(35): imagecreatefromjpeg()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:05:54 --> imagecreatefrompng(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(35): imagecreatefrompng()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:06:31 --> imagecreatefromjpeg(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(35): imagecreatefromjpeg()
+ 3 APPPATH/Views/profile.php(17): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:08:44 --> getimagesize(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:09:23 --> getimagesize(/demo/writable/uploads/no-pic.jpg): Failed to open stream: No such file or directory
+in APPPATH/Models/Image_model.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Image_model.php(25): getimagesize()
+ 3 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->resize_image()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:25:38 --> Class "App\Models\Imagick" not found
+in APPPATH/Models/Image_model.php on line 14.
+ 1 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->crop()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:26:04 --> Undefined array key "/usr/local/bin/convert"
+in SYSTEMPATH/Config/Services.php on line 339.
+ 1 SYSTEMPATH/Config/Services.php(339): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::image()
+ 3 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 4 SYSTEMPATH/Config/Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance()
+ 5 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::image()
+ 6 APPPATH/Models/Image_model.php(12): CodeIgniter\Config\BaseService::__callStatic()
+ 7 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->crop()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:26:12 --> unable to open image `testtest': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 15.
+ 1 APPPATH/Models/Image_model.php(15): Imagick->__construct()
+ 2 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:27:07 --> unable to open image `/demo/writable/uploads/1682515797_86b05313cb861a5d8ac8.png': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 15.
+ 1 APPPATH/Models/Image_model.php(15): Imagick->__construct()
+ 2 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:28:10 --> unable to open image `/var/www/htdocs/demo/writable/1682515797_86b05313cb861a5d8ac8.png': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 15.
+ 1 APPPATH/Models/Image_model.php(15): Imagick->__construct()
+ 2 APPPATH/Controllers/Profile.php(44): App\Models\Image_model->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 05:33:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Profile.php(34): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:49:17 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Home.php on line 161.
+ 1 APPPATH/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:49:17 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Home.php on line 161.
+ 1 APPPATH/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:49:18 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Home.php on line 161.
+ 1 APPPATH/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:49:18 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Home.php on line 161.
+ 1 APPPATH/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:54:30 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 53.
+ 1 APPPATH/Controllers/Profile.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:00:53 --> Invalid file: "like_threads.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Profile.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:04:26 --> Undefined variable $id
+in APPPATH/Views/liked_threads.php on line 4.
+ 1 APPPATH/Views/liked_threads.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/liked_threads.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:19:26 --> Too few arguments to function App\Models\Image_model::scale(), 2 passed in /var/www/htdocs/demo/app/Controllers/Profile.php on line 34 and exactly 3 expected
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Controllers/Profile.php(34): App\Models\Image_model->scale()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:19:52 --> Too few arguments to function App\Models\Image_model::scale(), 2 passed in /var/www/htdocs/demo/app/Controllers/Profile.php on line 34 and exactly 3 expected
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Controllers/Profile.php(34): App\Models\Image_model->scale()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:19:57 --> Too few arguments to function App\Models\Image_model::scale(), 2 passed in /var/www/htdocs/demo/app/Controllers/Profile.php on line 34 and exactly 3 expected
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Controllers/Profile.php(34): App\Models\Image_model->scale()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:20:07 --> Too few arguments to function App\Models\Image_model::scale(), 2 passed in /var/www/htdocs/demo/app/Controllers/Profile.php on line 34 and exactly 3 expected
+in APPPATH/Models/Image_model.php on line 11.
+ 1 APPPATH/Controllers/Profile.php(34): App\Models\Image_model->scale()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PRofile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:30:48 --> unable to open image `/var/www/htdocs/demo/writable//demo/writable/uploads/no-pic.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:30:55 --> unable to open image `/var/www/htdocs/demo/writable//demo/writable/uploadsno-pic.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:31:00 --> unable to open image `/var/www/htdocs/demo/writable/demo/writable/uploads/no-pic.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:31:09 --> unable to open image `/var/www/htdocs/demo/writable/demo/writable/uploads/no-pic.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:49:39 --> Undefined variable $croped
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:52:22 --> unable to open image `/var/www/htdocs/demo/writable/uploads/test': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(42): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:52:35 --> unable to open image `/var/www/htdocs/demo/writable/uploads/test': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(41): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:53:36 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:53:46 --> unable to open image `/var/www/htdocs/demo/writable/uploads/test': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(41): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:54:27 --> unable to open image `/var/www/htdocs/demo/writable/uploads/test': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:54:48 --> unable to open image `/var/www/htdocs/demo/writable/uploads/test': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 12:56:42 --> unable to open image `/var/www/htdocs/demo/writable/uploads/test': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/Image_model.php on line 23.
+ 1 APPPATH/Models/Image_model.php(23): Imagick->__construct()
+ 2 APPPATH/Controllers/Home.php(40): App\Models\Image_model->scale_thumbnail()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:19:20 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:26:18 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Profile.php on line 116.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->upload_profile_picture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 15:51:41 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 16:29:38 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Profile.php on line 112.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->upload_profile_picture()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

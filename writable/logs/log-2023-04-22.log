@@ -1,0 +1,325 @@
+ERROR - 2023-04-22 16:57:46 --> mysqli_sql_exception: Column 'subject' cannot be null in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Forum_model.php(76): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Home.php(46): App\Models\Forum_model->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-22 16:57:46 --> Column 'subject' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Forum_model.php(76): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Home.php(46): App\Models\Forum_model->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 17:00:38 --> mysqli_sql_exception: Incorrect TIMESTAMP value: 'CURRENT_TIMESTAMP()' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Forum_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/app/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-22 17:00:38 --> Incorrect TIMESTAMP value: 'CURRENT_TIMESTAMP()'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Forum_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:03:59 --> Call to a member function getTimestamp() on int
+in APPPATH/Controllers/Home.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:04:03 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 74.
+ 1 APPPATH/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:04:06 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 74.
+ 1 APPPATH/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:04:10 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 74.
+ 1 APPPATH/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:04:42 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 74.
+ 1 APPPATH/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:04:44 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 74.
+ 1 APPPATH/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:04:45 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 74.
+ 1 APPPATH/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:05:30 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 77.
+ 1 APPPATH/Controllers/Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:05:39 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Home.php on line 77.
+ 1 APPPATH/Controllers/Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 17:12:16 --> mysqli_sql_exception: Incorrect TIMESTAMP value: 'CURRENT_TIMESTAMP()' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Forum_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/app/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-22 17:12:16 --> Incorrect TIMESTAMP value: 'CURRENT_TIMESTAMP()'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Forum_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 17:18:00 --> mysqli_sql_exception: Incorrect TIMESTAMP value: 'current_timestamp()' in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Forum_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/demo/app/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-22 17:18:00 --> Incorrect TIMESTAMP value: 'current_timestamp()'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Forum_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 17:20:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tes  etes, CURRENT_TIMESTAMP(), test, 1, 0, 0' at line 1 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/app/Models/Forum_model.php(65): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+#5 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-22 17:20:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tes  etes, CURRENT_TIMESTAMP(), test, 1, 0, 0' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/Forum_model.php(65): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 17:20:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tes  etesgfbvdsgfdsdfsf, CURRENT_TIMESTAMP(), test, 1, 0, 0' at line 1 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/app/Models/Forum_model.php(65): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+#5 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-22 17:20:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tes  etesgfbvdsgfdsdfsf, CURRENT_TIMESTAMP(), test, 1, 0, 0' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/Forum_model.php(65): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 17:21:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tes  etesgfbvdsgfdsdfsfg fadsdasdfgs3wreFASe zsrf, 'CURRENT_TIMESTAMP()', test, ' at line 1 in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/app/Models/Forum_model.php(65): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+#5 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-22 17:21:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tes  etesgfbvdsgfdsdfsfg fadsdasdfgs3wreFASe zsrf, 'CURRENT_TIMESTAMP()', test, ' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 APPPATH/Models/Forum_model.php(65): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(48): App\Models\Forum_model->post_thread()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:27:18 --> Class "App\Controllers\Time" not found
+in APPPATH/Controllers/Home.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:44:02 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:45:20 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:54:38 --> Undefined variable $id
+in APPPATH/Views/new_comment.php on line 35.
+ 1 APPPATH/Views/new_comment.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/new_comment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:54:41 --> Undefined variable $id
+in APPPATH/Views/new_comment.php on line 35.
+ 1 APPPATH/Views/new_comment.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/new_comment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:55:21 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:55:52 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:56:00 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:56:01 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:56:03 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 72.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 17:56:14 --> Undefined variable $id
+in APPPATH/Views/new_comment.php on line 35.
+ 1 APPPATH/Views/new_comment.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/new_comment.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(72): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 18:16:00 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 18:16:02 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Home.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-22 18:21:53 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`demo`.`thread`, CONSTRAINT `FK_ThreadUser` FOREIGN KEY (`username`) REFERENCES `user` (`username`)) in /var/www/htdocs/demo/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/demo/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/demo/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/demo/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/demo/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/demo/app/Models/Forum_model.php(77): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/demo/app/Controllers/Home.php(60): App\Models\Forum_model->post_thread()
+#6 /var/www/htdocs/demo/system/CodeIgniter.php(934): App\Controllers\Home->post_comment()
+#7 /var/www/htdocs/demo/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/demo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/demo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-22 18:21:53 --> Cannot add or update a child row: a foreign key constraint fails (`demo`.`thread`, CONSTRAINT `FK_ThreadUser` FOREIGN KEY (`username`) REFERENCES `user` (`username`))
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Forum_model.php(77): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Home.php(60): App\Models\Forum_model->post_thread()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->post_comment()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

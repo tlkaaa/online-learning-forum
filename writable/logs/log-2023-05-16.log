@@ -1,0 +1,267 @@
+CRITICAL - 2023-05-16 12:59:24 --> Undefined property: mysqli::$id
+in APPPATH/Models/Forum_model.php on line 222.
+ 1 APPPATH/Models/Forum_model.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(20): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 12:59:41 --> Undefined property: mysqli::$id
+in APPPATH/Models/Forum_model.php on line 223.
+ 1 APPPATH/Models/Forum_model.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(20): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:00:00 --> foreach() argument must be of type array|object, null given
+in APPPATH/Controllers/Main.php on line 20.
+ 1 APPPATH/Controllers/Main.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:08:56 --> Undefined property: stdClass::$id
+in APPPATH/Models/Forum_model.php on line 237.
+ 1 APPPATH/Models/Forum_model.php(237): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:20:15 --> Undefined array key 0
+in APPPATH/Models/Forum_model.php on line 248.
+ 1 APPPATH/Models/Forum_model.php(248): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:20:44 --> Array to string conversion
+in APPPATH/Models/Forum_model.php on line 248.
+ 1 APPPATH/Models/Forum_model.php(248): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:21:05 --> Attempt to read property "view" on array
+in APPPATH/Models/Forum_model.php on line 248.
+ 1 APPPATH/Models/Forum_model.php(248): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:21:08 --> Attempt to read property "views" on array
+in APPPATH/Models/Forum_model.php on line 248.
+ 1 APPPATH/Models/Forum_model.php(248): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:21:18 --> Attempt to read property "views" on array
+in APPPATH/Models/Forum_model.php on line 248.
+ 1 APPPATH/Models/Forum_model.php(248): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:23:03 --> Undefined array key "$view"
+in APPPATH/Models/Forum_model.php on line 246.
+ 1 APPPATH/Models/Forum_model.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:23:07 --> Undefined array key "$views"
+in APPPATH/Models/Forum_model.php on line 246.
+ 1 APPPATH/Models/Forum_model.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:23:18 --> Undefined array key "$views"
+in APPPATH/Models/Forum_model.php on line 246.
+ 1 APPPATH/Models/Forum_model.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:27:19 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes)
+in APPPATH/Models/Forum_model.php on line 256.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-16 13:33:58 --> Undefined array key "id"
+in APPPATH/Models/Forum_model.php on line 263.
+ 1 APPPATH/Models/Forum_model.php(263): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(19): App\Models\Forum_model->recommendation()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:47:36 --> Array to string conversion
+in APPPATH/Controllers/Main.php on line 22.
+ 1 APPPATH/Controllers/Main.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:47:42 --> Undefined array key 0
+in APPPATH/Controllers/Main.php on line 22.
+ 1 APPPATH/Controllers/Main.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:48:00 --> Undefined array key ""
+in APPPATH/Controllers/Main.php on line 22.
+ 1 APPPATH/Controllers/Main.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:48:00 --> Undefined array key ""
+in APPPATH/Controllers/Main.php on line 22.
+ 1 APPPATH/Controllers/Main.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:48:08 --> Array to string conversion
+in APPPATH/Controllers/Main.php on line 22.
+ 1 APPPATH/Controllers/Main.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 13:48:55 --> Array to string conversion
+in APPPATH/Controllers/Main.php on line 23.
+ 1 APPPATH/Controllers/Main.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:00:39 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 37.
+ 1 APPPATH/Controllers/Main.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:00:54 --> Attempt to read property "date_created" on array
+in APPPATH/Controllers/Main.php on line 49.
+ 1 APPPATH/Controllers/Main.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:01:31 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 38.
+ 1 APPPATH/Controllers/Main.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:01:33 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Main.php on line 252.
+ 1 APPPATH/Controllers/Main.php(252): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:01:33 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Main.php on line 252.
+ 1 APPPATH/Controllers/Main.php(252): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:01:33 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Main.php on line 252.
+ 1 APPPATH/Controllers/Main.php(252): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:01:34 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 38.
+ 1 APPPATH/Controllers/Main.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:01:38 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 38.
+ 1 APPPATH/Controllers/Main.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:03:55 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 40.
+ 1 APPPATH/Controllers/Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:04:18 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 42.
+ 1 APPPATH/Controllers/Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:04:44 --> Undefined array key "username"
+in APPPATH/Controllers/Main.php on line 42.
+ 1 APPPATH/Controllers/Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:04:52 --> Undefined array key "username"
+in APPPATH/Controllers/Main.php on line 40.
+ 1 APPPATH/Controllers/Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:05:17 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 42.
+ 1 APPPATH/Controllers/Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:05:55 --> Undefined array key "username"
+in APPPATH/Controllers/Main.php on line 40.
+ 1 APPPATH/Controllers/Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:07:17 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Main.php on line 40.
+ 1 APPPATH/Controllers/Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:11:39 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Main.php on line 257.
+ 1 APPPATH/Controllers/Main.php(257): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 14:11:41 --> Attempt to read property "subject" on bool
+in APPPATH/Controllers/Main.php on line 257.
+ 1 APPPATH/Controllers/Main.php(257): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->search()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

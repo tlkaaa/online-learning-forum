@@ -1,0 +1,291 @@
+CRITICAL - 2023-04-25 15:16:59 --> You must supply the parameters: from, to.
+in SYSTEMPATH/Router/RouteCollection.php on line 898.
+ 1 APPPATH/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->match()
+ 2 SYSTEMPATH/Router/RouteCollection.php(267): require('APPPATH/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:31 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:31 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:31 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:32 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:32 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:32 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:22:33 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:04 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:05 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:05 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:05 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:07 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:07 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:08 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:08 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:43 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:44 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:44 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:44 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 15:26:44 --> Class "App\Controllers\PubModel" not found
+in APPPATH/Controllers/Home.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXReslt()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 16:40:52 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH/Controllers/Login.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 16:59:52 --> Attempt to read property "username" on bool
+in APPPATH/Controllers/Home.php on line 154.
+ 1 APPPATH/Controllers/Home.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 17:59:59 --> Undefined global variable $_SESSION
+in APPPATH/Models/Forum_model.php on line 91.
+ 1 APPPATH/Models/Forum_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(70): App\Models\Forum_model->like()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:01:46 --> Undefined global variable $_SESSION
+in APPPATH/Models/Forum_model.php on line 91.
+ 1 APPPATH/Models/Forum_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(70): App\Models\Forum_model->like()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:01:57 --> Undefined global variable $_SESSION
+in APPPATH/Models/Forum_model.php on line 91.
+ 1 APPPATH/Models/Forum_model.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(70): App\Models\Forum_model->like()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:05:04 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 71.
+ 1 APPPATH/Controllers/Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:05:06 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 71.
+ 1 APPPATH/Controllers/Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:05:46 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 71.
+ 1 APPPATH/Controllers/Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:05:49 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 71.
+ 1 APPPATH/Controllers/Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:06:14 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 69.
+ 1 APPPATH/Controllers/Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:06:15 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 69.
+ 1 APPPATH/Controllers/Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:06:45 --> Undefined array key "username"
+in APPPATH/Controllers/Home.php on line 70.
+ 1 APPPATH/Controllers/Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:12:52 --> Trying to access array offset on value of type int
+in APPPATH/Controllers/Home.php on line 76.
+ 1 APPPATH/Controllers/Home.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:32 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 131.
+ 1 APPPATH/Controllers/Home.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:32 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 131.
+ 1 APPPATH/Controllers/Home.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:32 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 131.
+ 1 APPPATH/Controllers/Home.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:33 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 131.
+ 1 APPPATH/Controllers/Home.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:33 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 131.
+ 1 APPPATH/Controllers/Home.php(131): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:38 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 132.
+ 1 APPPATH/Controllers/Home.php(132): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:38 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 132.
+ 1 APPPATH/Controllers/Home.php(132): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:42 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 134.
+ 1 APPPATH/Controllers/Home.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:42 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 134.
+ 1 APPPATH/Controllers/Home.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 18:25:42 --> Undefined variable $pbm
+in APPPATH/Controllers/Home.php on line 134.
+ 1 APPPATH/Controllers/Home.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->getAJAXResult()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

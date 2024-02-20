@@ -1,0 +1,934 @@
+CRITICAL - 2023-05-17 11:51:10 --> Undefined variable $comments
+in APPPATH/Views/home.php on line 17.
+ 1 APPPATH/Views/home.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Main.php(115): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 11:51:31 --> Undefined variable $comments
+in APPPATH/Views/home.php on line 17.
+ 1 APPPATH/Views/home.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Main.php(115): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:12:01 --> Trying to access array offset on value of type bool
+in APPPATH/Controllers/Main.php on line 177.
+ 1 APPPATH/Controllers/Main.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:12:23 --> Trying to access array offset on value of type bool
+in APPPATH/Controllers/Main.php on line 177.
+ 1 APPPATH/Controllers/Main.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:12:27 --> Trying to access array offset on value of type bool
+in APPPATH/Controllers/Main.php on line 177.
+ 1 APPPATH/Controllers/Main.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->thread()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:37:52 --> Class "App\Models\PDF" not found
+in APPPATH/Models/Pdf_model.php on line 12.
+ 1 APPPATH/Controllers/Main.php(19): App\Models\Pdf_model->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:38:43 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Pdf_model.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-17 13:39:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Pdf_model.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-17 13:44:48 --> Class "App\Models\PDF" not found
+in APPPATH/Models/Pdf_model.php on line 12.
+ 1 APPPATH/Controllers/Main.php(19): App\Models\Pdf_model->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:45:27 --> require(fpdf/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Models/Pdf_model.php on line 3.
+ 1 APPPATH/Models/Pdf_model.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Pdf_model.php(3): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Models/Pdf_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 8 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 9 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+10 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+11 APPPATH/Controllers/Main.php(18): model()
+12 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+13 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:45:43 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Models/Pdf_model.php on line 3.
+ 1 APPPATH/Models/Pdf_model.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Pdf_model.php(3): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Models/Pdf_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 8 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 9 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+10 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+11 APPPATH/Controllers/Main.php(18): model()
+12 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+13 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:45:54 --> Class "App\Models\PDF" not found
+in APPPATH/Models/Pdf_model.php on line 10.
+ 1 APPPATH/Controllers/Main.php(19): App\Models\Pdf_model->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:46:15 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Models/Pdf_model.php on line 3.
+ 1 APPPATH/Models/Pdf_model.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Models/Pdf_model.php(3): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Models/Pdf_model.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 8 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 9 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+10 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+11 APPPATH/Controllers/Main.php(18): model()
+12 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+13 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:46:19 --> Class "App\Models\PDF" not found
+in APPPATH/Models/Pdf_model.php on line 10.
+ 1 APPPATH/Controllers/Main.php(19): App\Models\Pdf_model->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:48:14 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 4.
+ 1 APPPATH/Controllers/Main.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Main.php(4): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Main.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:57:59 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:59:23 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 APPPATH/Controllers/Profile.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(250): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:59:36 --> include(helveticab.php): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/fpdf.php on line 1138.
+ 1 APPPATH/ThirdParty/fpdf.php(1138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/fpdf.php(1138): include()
+ 3 APPPATH/ThirdParty/fpdf.php(461): FPDF->_loadfont()
+ 4 APPPATH/ThirdParty/fpdf.php(509): FPDF->AddFont()
+ 5 APPPATH/Controllers/Profile.php(255): FPDF->SetFont()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:59:48 --> require(app/ThirdParty/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 APPPATH/Controllers/Profile.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(250): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:59:54 --> require(app/ThirdParty/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 APPPATH/Controllers/Profile.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(250): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:00:04 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:00:39 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:01:55 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:02:24 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:03:02 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:04:54 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:05:37 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:05:42 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:06:01 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 APPPATH/Controllers/Profile.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(250): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:06:10 --> require(app/ThirdParty/FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 APPPATH/Controllers/Profile.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(250): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:06:23 --> include(helveticab.php): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/FPDF.php on line 1138.
+ 1 APPPATH/ThirdParty/FPDF.php(1138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/FPDF.php(1138): include()
+ 3 APPPATH/ThirdParty/FPDF.php(461): FPDF->_loadfont()
+ 4 APPPATH/ThirdParty/FPDF.php(509): FPDF->AddFont()
+ 5 APPPATH/Controllers/Profile.php(255): FPDF->SetFont()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:06:35 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:08:04 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 APPPATH/Controllers/Profile.php(251): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(251): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:08:08 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:08:17 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:09:05 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:12:39 --> include(helveticab.php): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/FPDF.php on line 1138.
+ 1 APPPATH/ThirdParty/FPDF.php(1138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/FPDF.php(1138): include()
+ 3 APPPATH/ThirdParty/FPDF.php(461): FPDF->_loadfont()
+ 4 APPPATH/ThirdParty/FPDF.php(509): FPDF->AddFont()
+ 5 APPPATH/Controllers/Profile.php(253): FPDF->SetFont()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:12:46 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:13:17 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:13:22 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:14:15 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:14:25 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:14:30 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:15:04 --> require(./fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:15:10 --> require(./FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:16:14 --> include(helveticab.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/FPDF.php on line 1138.
+ 1 APPPATH/Controllers/FPDF.php(1138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FPDF.php(1138): include()
+ 3 APPPATH/Controllers/FPDF.php(461): FPDF->_loadfont()
+ 4 APPPATH/Controllers/FPDF.php(509): FPDF->AddFont()
+ 5 APPPATH/Controllers/Profile.php(252): FPDF->SetFont()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:16:22 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:16:43 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:16:49 --> Class "App\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:34 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:35 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:35 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:35 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:35 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:17:55 --> require(./FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 4.
+ 1 APPPATH/Controllers/Profile.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(4): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Profile.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:18:43 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:19:29 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:19:38 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:19:50 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:19:55 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:21:21 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:24:07 --> require(fpdf/fpdf. php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:24:12 --> require(fpdf/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:24:17 --> require(fpdf/FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:24:22 --> require(FPDF/FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:24:29 --> require(fpdf/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:25:02 --> require(fpdf.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:25:09 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:26:52 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:26:54 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:26:58 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:27:22 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:27:30 --> Class "App\Controllers\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:27:36 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:27:40 --> Class "App\Controllers\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:28:02 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:28:19 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:28:28 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:28:31 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:29:48 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:30:37 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:32:35 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:32:53 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:32:57 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:08 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:09 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:09 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:09 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:09 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:09 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:09 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:18 --> Class "FPDF" not found
+in APPPATH/Controllers/Profile.php on line 251.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:33:37 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:34:31 --> require(FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:34:57 --> require(app/ThirdParty/FPDF.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 249.
+ 1 APPPATH/Controllers/Profile.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(249): require()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:35:39 --> Class "App\ThirdParty\FPDF" not found
+in APPPATH/Controllers/Profile.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:40:25 --> include(/var/www/htdocs/demo/app/ThirdParty/font/helvetica16.php): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/FPDF.php on line 1141.
+ 1 APPPATH/ThirdParty/FPDF.php(1141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/FPDF.php(1141): include()
+ 3 APPPATH/ThirdParty/FPDF.php(459): FPDF->_loadfont()
+ 4 APPPATH/ThirdParty/FPDF.php(507): FPDF->AddFont()
+ 5 APPPATH/Controllers/Profile.php(252): FPDF->SetFont()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:40:40 --> include(/var/www/htdocs/demo/app/ThirdParty/font/helveticaa.php): Failed to open stream: No such file or directory
+in APPPATH/ThirdParty/FPDF.php on line 1141.
+ 1 APPPATH/ThirdParty/FPDF.php(1141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/ThirdParty/FPDF.php(1141): include()
+ 3 APPPATH/ThirdParty/FPDF.php(459): FPDF->_loadfont()
+ 4 APPPATH/ThirdParty/FPDF.php(507): FPDF->AddFont()
+ 5 APPPATH/Controllers/Profile.php(252): FPDF->SetFont()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:44:09 --> FPDF error: Undefined font: times new roman 
+in APPPATH/ThirdParty/FPDF.php on line 271.
+ 1 APPPATH/ThirdParty/FPDF.php(510): FPDF->Error()
+ 2 APPPATH/Controllers/Profile.php(256): FPDF->SetFont()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:50:45 --> Attempt to read property "email" on string
+in APPPATH/Controllers/Profile.php on line 258.
+ 1 APPPATH/Controllers/Profile.php(258): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:50:56 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Profile.php on line 258.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:51:04 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Profile.php on line 258.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:51:11 --> Attempt to read property "email" on string
+in APPPATH/Controllers/Profile.php on line 258.
+ 1 APPPATH/Controllers/Profile.php(258): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 14:51:39 --> Undefined variable $email
+in APPPATH/Controllers/Profile.php on line 266.
+ 1 APPPATH/Controllers/Profile.php(266): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:07:51 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 302.
+ 1 APPPATH/Controllers/Profile.php(302): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:08:22 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 303.
+ 1 APPPATH/Controllers/Profile.php(303): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:09:11 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Profile.php on line 303.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:16:59 --> Cannot redeclare App\Models\Forum_model::get_like()
+in APPPATH/Models/Forum_model.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-17 15:17:36 --> Cannot redeclare App\Models\Forum_model::get_like()
+in APPPATH/Models/Forum_model.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-17 15:18:47 --> Cannot redeclare App\Models\Forum_model::get_like()
+in APPPATH/Models/Forum_model.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-17 15:19:46 --> Undefined property: stdClass::$thread_id
+in APPPATH/Controllers/Profile.php on line 317.
+ 1 APPPATH/Controllers/Profile.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:20:10 --> Undefined property: stdClass::$thread_id
+in APPPATH/Controllers/Profile.php on line 317.
+ 1 APPPATH/Controllers/Profile.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:20:52 --> Undefined property: stdClass::$thread_id
+in APPPATH/Controllers/Profile.php on line 317.
+ 1 APPPATH/Controllers/Profile.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:21:45 --> Undefined property: stdClass::$thread_id
+in APPPATH/Controllers/Profile.php on line 317.
+ 1 APPPATH/Controllers/Profile.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:21:59 --> Undefined property: stdClass::$thread_id
+in APPPATH/Controllers/Profile.php on line 317.
+ 1 APPPATH/Controllers/Profile.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:25:03 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Profile.php on line 290.
+ 1 APPPATH/Controllers/Profile.php(290): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:25:12 --> foreach() argument must be of type array|object, bool given
+in APPPATH/Controllers/Profile.php on line 290.
+ 1 APPPATH/Controllers/Profile.php(290): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:38:17 --> "callback_check_strong_password" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 320.
+ 1 SYSTEMPATH/Validation/Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/CreateAccount.php(35): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:41:22 --> "callback_check_strong_password" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 320.
+ 1 SYSTEMPATH/Validation/Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/CreateAccount.php(26): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:42:58 --> "callback_check_strong_password" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 320.
+ 1 SYSTEMPATH/Validation/Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/CreateAccount.php(26): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:45:03 --> "callback_check_strong_password" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 320.
+ 1 SYSTEMPATH/Validation/Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/CreateAccount.php(26): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 15:46:38 --> "callback_strong_password" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 320.
+ 1 SYSTEMPATH/Validation/Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/CreateAccount.php(26): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CreateAccount->create_account()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:58 --> FPDF error: Some data has already been output, can't send PDF file
+in APPPATH/ThirdParty/FPDF.php on line 271.
+ 1 APPPATH/ThirdParty/FPDF.php(1060): FPDF->Error()
+ 2 APPPATH/ThirdParty/FPDF.php(999): FPDF->_checkoutput()
+ 3 APPPATH/Controllers/Profile.php(329): FPDF->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:13:59 --> FPDF error: Some data has already been output, can't send PDF file
+in APPPATH/ThirdParty/FPDF.php on line 271.
+ 1 APPPATH/ThirdParty/FPDF.php(1060): FPDF->Error()
+ 2 APPPATH/ThirdParty/FPDF.php(999): FPDF->_checkoutput()
+ 3 APPPATH/Controllers/Profile.php(329): FPDF->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:14:04 --> FPDF error: Some data has already been output, can't send PDF file
+in APPPATH/ThirdParty/FPDF.php on line 271.
+ 1 APPPATH/ThirdParty/FPDF.php(1060): FPDF->Error()
+ 2 APPPATH/ThirdParty/FPDF.php(999): FPDF->_checkoutput()
+ 3 APPPATH/Controllers/Profile.php(329): FPDF->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:14:08 --> FPDF error: Some data has already been output, can't send PDF file
+in APPPATH/ThirdParty/FPDF.php on line 271.
+ 1 APPPATH/ThirdParty/FPDF.php(1060): FPDF->Error()
+ 2 APPPATH/ThirdParty/FPDF.php(999): FPDF->_checkoutput()
+ 3 APPPATH/Controllers/Profile.php(329): FPDF->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->pdf()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 16:23:56 --> syntax error, unexpected integer "0", expecting ")"
+in APPPATH/Controllers/Profile.php on line 335.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
